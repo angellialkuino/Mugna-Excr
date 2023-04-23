@@ -1,6 +1,6 @@
 inp = int(input())
 
-if 95<=inp and inp<=100:
+if 95 <= inp <= 100:
     print("Excellent")
 elif 85 <= inp:
     print("Very Good")
