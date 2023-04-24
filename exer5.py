@@ -10,8 +10,7 @@ with open('exer5.txt','a') as f:
         f.write(s + "\n")
 
 with open('exer5.txt','r') as f:
-    arr = [x.strip() for x in f.readlines()]
-    arr.sort()
+    arr = sorted([x.strip() for x in f.readlines()])
 
 for i in arr:
     print(i)
