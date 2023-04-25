@@ -24,10 +24,6 @@ class BankAccount (object):
 
     
 class StudentAccount(BankAccount):
-    def __init__(self,name,number,balance):
-        self.name=name
-        self.number=number
-        self.balance=balance
 
     def withdraw(self,num):
         #dont allow to overdraft (whats dat)
