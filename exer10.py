@@ -1,4 +1,5 @@
 # test case for exer 7
+#checking for type error not included
 import unittest
 from exer7 import BankAccount,StudentAccount
 
