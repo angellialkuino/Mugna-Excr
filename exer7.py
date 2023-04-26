@@ -7,6 +7,9 @@ class BankAccount (object):
         self.number=number
         self.balance=balance
     
+    def balance(self):
+        return self.balance
+    
     def deposit(self,num):
         self.balance += num
         print(f"New balance:{self.balance}")
